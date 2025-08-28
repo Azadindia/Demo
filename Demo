@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azad India - Demo Site</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(120deg, #4facfe, #00f2fe);
+      color: #fff;
+      text-align: center;
+    }
+    header {
+      padding: 40px;
+      background: rgba(0, 0, 0, 0.4);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    nav {
+      margin: 20px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 20px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 5px;
+      margin: 5px;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      background: rgba(255,255,255,0.5);
+    }
+    section {
+      padding: 50px 20px;
+    }
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    footer {
+      background: rgba(0,0,0,0.5);
+      padding: 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🌐 Azad India</h1>
+    <p>Welcome to my stylish demo website 🚀</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>This is a demo site hosted on <b>GitHub Pages</b>. You can customize it easily!</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <p>💻 Web Development • 🎨 Design • 🚀 Hosting</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:test@example.com" style="color:yellow;">test@example.com</a></p>
+  </section>
+
+  <footer>
+    © 2025 Azad India | Made with ❤️ for Demo
+  </footer>
+</body>
+</html>
